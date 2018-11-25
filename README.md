@@ -1,1 +1,0 @@
-# Funda-o-Oscar-Americano.github.io
