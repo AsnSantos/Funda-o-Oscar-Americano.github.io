@@ -741,7 +741,7 @@ footer .subtitle {
     }
 }
 
-@media only screen and (min-width: 480px) and (max-height: 600px) and (orientation: landscape) {
+@media only screen and (max-height: 600px) and (orientation: landscape) {
     .navbar-small {
         background-color: #1B1B1B;
         position: fixed;
@@ -917,7 +917,7 @@ footer .subtitle {
         grid-template-columns: 1fr 10fr 1fr;
     }
 
-    .mid_width {
+    .mid_width, .normal_width {
         grid-column: 1 / -1 !important;
     }
 
@@ -926,7 +926,7 @@ footer .subtitle {
     }
 }
 
-@media only screen and (min-width: 250px) and (max-width: 600px) and (orientation: portrait) {
+@media only screen and (max-width: 600px) and (orientation: portrait) {
     .navbar-small {
         background-color: #1B1B1B;
         position: fixed;
