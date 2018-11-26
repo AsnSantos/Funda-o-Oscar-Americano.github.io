@@ -935,7 +935,7 @@ footer .subtitle {
     }
 }
 
-@media only screen and (max-width: 600px) and (orientation: portrait) {
+@media only screen and (min-width: 240px) and (max-width: 600px) and (orientation: portrait) {
     .navbar-small {
         background-color: #1B1B1B;
         position: fixed;
